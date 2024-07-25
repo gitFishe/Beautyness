@@ -1,0 +1,75 @@
+.commentaries {
+  padding-top: rem(150);
+  padding-bottom: rem(110);
+  background-color: var(--pastelblue);
+
+  &__title {
+    text-align: center;
+    margin-top: rem(10);
+    margin-bottom: rem(40);
+  }
+
+  &__deck {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .review {
+    margin-bottom: rem(36);
+    width: 47%;
+    background-color: var(--white);
+
+    &__line {
+      padding: rem(25) rem(50);
+      background-color: var(--cadetblue);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &-icon {
+        height: rem(55);
+        width: rem(70);
+      }
+
+      &-info {
+        display: flex;
+
+        > {
+          img {
+            margin-right: rem(20);
+            border: 2px solid var(--white);
+            width: rem(75);
+            height: rem(75);
+          }
+        }
+      }
+
+      &-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        span:first-of-type {
+          font-family: Playfair Display;
+          font-weight: bolder;
+          font-size: rem(20);
+        }
+
+        img {
+          width: rem(80);
+          height: rem(17);
+        }
+      }
+    }
+
+    p {
+      font-size: rem(18);
+      font-family: Manrope;
+      line-height: 160%;
+      color: var(--text-dark);
+      padding: rem(40);
+      padding-bottom: rem(50);
+    }
+  }
+}

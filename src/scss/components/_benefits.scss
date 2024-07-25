@@ -1,0 +1,38 @@
+.benefits {
+  padding-top: rem(145);
+  padding-bottom: rem(125);
+
+  &__title {
+    text-align: center;
+    margin-top: rem(10);
+    margin-bottom: rem(40);
+  }
+
+  &__deck {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    margin-bottom: rem(35);
+    width: 27%;
+
+    &-title {
+      margin-top: rem(22);
+      margin-bottom: rem(11);
+    }
+
+    &-img {
+      width: rem(90);
+      height: rem(90);
+    }
+
+    p {
+      font-family: Manrope;
+      color: var(--text-light);
+      line-height: 165%;
+      letter-spacing: rem(0.36);
+    }
+  }
+}
